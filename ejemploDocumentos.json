@@ -1,0 +1,32 @@
+{
+    "nombre": "laptop",
+    "precio": 40.2,
+    "active": flase,
+    "createdAt": new Date("12/12/2000"),
+    "somedata": [1,"a",[]],
+    "facturer":{
+        "name": "dell",
+        "version": "xps",
+        "location":{
+            "city": "usa",
+            "adress": "asdk"
+        }
+    }
+}
+
+db.products.insert({
+    {
+        "name": "mouse",
+        "description": "razer mouse",
+        "tags": ["computers", "gaming"],
+        "quantity": 14,
+        "createdAt": new Date()
+    },
+    {
+        "name": "monitor",
+        "description": "LG monitor",
+        "tags": ["computers", "gaming"],
+        "quantity": 5,
+        "createdAt": new Date()
+    }
+})
